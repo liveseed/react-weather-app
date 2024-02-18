@@ -77,6 +77,7 @@ var Weather = React.createClass({
 
 		function setBodyClass () {
 			if (typeof condition != 'undefined') {
+				
 				// Map condition codes to conditions using http://openweathermap.org/weather-conditions
 				var conditionMap = {
 					'2': 'thunderstorm',
