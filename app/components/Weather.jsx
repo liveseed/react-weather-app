@@ -104,7 +104,7 @@ var Weather = React.createClass({
         {renderMessage()}
         {location && <WeatherForecastList location={location} tempType={this.props.tempType} />}
         {renderError()}
-				{setBodyClass()}
+				{setBodyClass()} 
       </div>
     )
   }
