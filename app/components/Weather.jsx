@@ -99,7 +99,7 @@ var Weather = React.createClass({
 
     return (
       <div>
-        <h1 className="text-center page-title">Get Weather page</h1>
+        <h1 className="text-center page-title">Get Weather page  1</h1>
         <WeatherForm onSearch={this.handleSearch} onTypeChange={this.props.updateTempType} tempType={this.props.tempType} />
         {renderMessage()}
         {location && <WeatherForecastList location={location} tempType={this.props.tempType} />}
