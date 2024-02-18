@@ -104,8 +104,7 @@ var Weather = React.createClass({
         {renderMessage()}
         {location && <WeatherForecastList location={location} tempType={this.props.tempType} />}
         {renderError()}
-				{setBodyClass()}
-				<h1 className="text-center page-title">Get Weather page  2</h1>
+				{setBodyClass()} 
       </div>
     )
   }
